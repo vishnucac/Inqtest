@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ca Uploader</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="assets/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <script>
+    window.Polymer = {
+      dom: 'shadow'
+    };
+  </script>
+  <link rel="import" href="assets/bower_components/paper-styles/color.html">
+  <link rel="import" href="assets/bower_components/paper-styles/typography.html">
+  <link rel="import" href="assets/bower_components/vaadin-upload/vaadin-upload.html">
+  <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA3MHk3ebGxwOFGRM0ajx2Z0qElN0T7sqI",
+    authDomain: "inquisictest.firebaseapp.com",
+    databaseURL: "https://inquisictest.firebaseio.com",
+    storageBucket: "inquisictest.appspot.com",
+    messagingSenderId: "811812146679"
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+  <app-root>Loading...</app-root>
+</body>
+</html>
